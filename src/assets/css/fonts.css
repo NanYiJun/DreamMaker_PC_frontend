@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'pixel';
+    src: url('@/assets/font/pixel.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

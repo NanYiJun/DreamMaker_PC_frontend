@@ -1,7 +1,16 @@
 <template>
-  <router-view/>
+  <Menu/>
+  <router-view class="router-class"/>
 </template>
 
+<script>
+import Menu from '@/components/Menu.vue'
+export default {
+  components: {
+    Menu
+  },
+}
+</script>
 <style lang="less">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -10,7 +19,9 @@
   text-align: center;
   color: #2c3e50;
 }
-
+.router-class{
+  margin-top: 60px;
+}
 nav {
   padding: 30px;
 
