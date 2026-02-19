@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import Menu from '@/components/Menu.vue'
+import Menu from '@/components/Menu/Menu.vue'
 export default {
   components: {
     Menu
@@ -20,7 +20,7 @@ export default {
   color: #2c3e50;
 }
 .router-class{
-  margin-top: 60px;
+  margin-top: 5vh;
 }
 nav {
   padding: 30px;
